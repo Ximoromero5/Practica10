@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+}
+body{
+    font-family: 'Krub', sans-serif;
+}
+#contenedor{
+    background: url(img/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 755px;
+    margin-top: 0px;
+}
+#titulo1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding-top: 150px;
+    font-weight: lighter;
+    color: #333;
+}
+#linea1{
+    width: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-0%);
+    height: 1px;
+    background: #333;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 20px 25px;
+    background: none;
+    border-radius: 2px;
+    outline: 0px;
+}
+nav>ul{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    background: #404040;
+    border-bottom: 4px solid #333;
+}
+nav>ul>li>span>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-left: 7px;
+}
+nav>ul>li>span[class^="icon-"]{
+    color: #fff;
+    transition: all 0.3s;
+}
+nav>ul>li>span[class^="icon-"]:hover{
+    color: tomato;
+}
+.html{
+    background: url(img/8.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 360px;
+}
+.html2, .css2, .jquery2, .java2{
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    transition: all 0.3s;
+}
+.html2:hover, .css2:hover, .jquery2:hover, .java2:hover{
+    background: none;
+}
+.css{
+    position: relative;
+    background: url(img/4.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 360px;
+    float: right;
+    bottom: 360px;
+}
+.jquery{
+    width: 45%;
+    height: 395px;
+    background: url(img/3.jpg);
+    background-size: cover;
+}
+.java{
+    width: 55%;
+    height: 395px;
+    background: url(img/9.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 395px;
+    float: right;
+}
+#conocimientos>div>div>img{
+    width: 170px;
+    margin-top: 20px;
+}
+.java>div>img{
+    position: relative;
+    left: 40%;
+}
+.html>div>img{
+    position: relative;
+    left: 40%;
+}
+.css>div>img, .jquery>div>img{
+    position: relative;
+    left: 35%;
+}
+.linea2{
+    width: 30%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.50);
+    display: inline-block;
+    transition: all 0.2s;
+}
+.html2>.linea2{
+    position: relative;
+    left: 140px;
+}
+.java2>.linea2{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.css2>.linea2{
+    position: relative;
+    left: 35px;
+}
+.jquery2>.linea2{
+    position: relative;
+    left: 65px;
+    top: 14px;
+}
+#conocimientos>div>div>h2{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #fff;
+}
+#sobremi{
+    position: relative;
+    width: 100%;
+    height: 755px;
+    background: #F5F5F5;
+}
+#sobremi>img{
+    width: 600px;
+    position: relative;
+    top: 140px;
+    left: 80px;
+    filter: blur(3px);
+    transition: all 0.3s;
+}
+#sobremi>img:hover{
+    filter: none;
+}
+#sobremi>p{
+    width: 650px;
+    position: relative;
+    left: 800px;
+    bottom: 210px;
+    text-align: justify;
+}
+#sobremi>h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 80px;
+    position: absolute;
+    top: 70px;
+}
+#sobremi>h3{
+    position: absolute;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    bottom: 575px;
+    left: 800px;
+}
+#contacto{
+    width: 100%;
+    height: 755px;
+    background: #f2f2f2;
+}
+#contacto>form{
+    max-width: 55%;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+#contacto>form>input,#contacto>form>textarea{
+    margin: 13px;
+}
+#contacto>form>input[type="text"], input[type="email"]{
+    width: 220px;
+    padding: 16px 420px 16px 20px;   
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: dimgrey;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#contacto>form>textarea{
+    padding: 10px 20px;
+    width: 74.3%;
+    height: 80px;
+    font-size: 15px;
+    font-family: 'Krub', sans-serif;
+    text-transform: capitalize;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: dimgrey;
+}
+#contacto>form>input[type="submit"]{
+    padding: 16px 45px;
+    border: none;
+    background: tomato;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    border-bottom: 2px solid #ff471a;
+    letter-spacing: 2px;
+}
+#contacto>h1{
+    font-size: 40px;
+    position: relative;
+    margin-left: 90px;
+    top: 100px;
+    letter-spacing: 1px;
+}
+#contacto>p{
+    font-size: 16px;
+    position: relative;
+    margin-left: 90px;
+    top: 120px;
+}
+#pie{
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+}
+#pie>h3{
+    position: relative;
+    bottom: 25px;
+    font-weight: lighter;
+}
+#pie>ul{
+    padding: 30px;
+    text-align: center;
+}
+#pie>ul>a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#pie>ul>a>li{
+    list-style: none;
+}
+#pie>ul>a:hover{
+    color: whitesmoke;
+}
