@@ -258,25 +258,55 @@ nav>ul>li>span[class^="icon-"]:hover{
     padding-top: 10px;
     font-size: 24px;
 }
-#curriculum>a{
+#cajaP{
+    background: none;
+    width: 1200px;
+    height: 430px;
+    position: relative;
+    left: 200px;
+}
+.caja2>a{
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
     font-weight: lighter;
     letter-spacing: 1.2px;
     font-size: 22px;
-    padding: 15px 35px;
+    padding: 13px 40px;
     background: tomato;
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    bottom: 20px;
-    left: 325px;
+    left: 30%;
+    top: 90px;
     border-bottom: 2px solid #ff471a;
 }
-#curriculum>video{
+.caja2{
+    width: 600px;
+    height: 340px;
+    margin-top: 50px;
+    float: right;
+    background: #333;
+}
+.caja2>h1{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.caja2>p{
     position: relative;
-    left: 6%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    width:350px;
+    left: 21%;
+}
+#cajaP>video{
+    position: relative;
     padding-top: 50px;
 }
 #curriculum>img{
