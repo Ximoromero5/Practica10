@@ -241,6 +241,50 @@ nav>ul>li>span[class^="icon-"]:hover{
     margin-left: 90px;
     top: 120px;
 }
+#curriculum{
+    width: 100%;
+    background: none;
+    height: 755px;
+}
+#curriculum>h1{
+    padding-top: 90px;
+    text-transform: capitalize;
+    font-size: 42px;
+    margin-left: 90px;
+    font-weight: lighter;
+}
+#curriculum>h3{
+    margin-left: 90px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+#curriculum>a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+    font-size: 22px;
+    padding: 15px 35px;
+    background: tomato;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 20px;
+    left: 325px;
+    border-bottom: 2px solid #ff471a;
+}
+#curriculum>video{
+    position: relative;
+    left: 6%;
+    padding-top: 50px;
+}
+#curriculum>img{
+    position: relative;
+    left: 100px;
+    width: 270px;
+    bottom: 80px;
+}
 #pie{
     background-color: #202020;
     color: #fff;
